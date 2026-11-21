@@ -49,9 +49,9 @@ Desktop companion with a signal-core HUD — distinct dormant, listening, thinki
 <tr>
 <td width="50%" valign="top">
 
-**Roblox morphs** <sub>private</sub>
+**[Roblox morph tools](https://github.com/Repex13/blender-roblox-morph-tools)**
 
-CC-compatible character morphs: Blender modeling and rigging, SurfaceAppearance, RBXM export.
+Blender scripts that turn rigged characters into Roblox R15 morphs: clean up, scale, map bones, fix weights, export FBX and verify, plus morph pads.
 
 </td>
 <td width="50%" valign="top">
