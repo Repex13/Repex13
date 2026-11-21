@@ -86,8 +86,13 @@ Community and lore site at progenitors.ca. Vinxi (React Server Components) on Cl
 </p>
 
 <p>
-<a href="https://discord.com/users/861006155719770112"><img width="49%" src="https://lanyard.cnrad.dev/api/861006155719770112?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true" alt="Discord presence for repexforde" /></a>
-<a href="https://discord.com/users/1070456961310662686"><img width="49%" src="https://lanyard.cnrad.dev/api/1070456961310662686?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true" alt="Discord presence for ghostwas" /></a>
+<a href="https://discord.com/users/861006155719770112"><img width="49%" src="https://lanyard.cnrad.dev/api/861006155719770112?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true&hideBadges=true" alt="Discord presence for repexforde" /></a>
+<a href="https://discord.com/users/1070456961310662686"><img width="49%" src="https://lanyard.cnrad.dev/api/1070456961310662686?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true&hideBadges=true" alt="Discord presence for ghostwas" /></a>
+</p>
+
+<p>
+<a href="https://discord.com/users/861006155719770112"><img width="49%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/discord-repexforde.svg" alt="Discord badges for repexforde" /></a>
+<a href="https://discord.com/users/1070456961310662686"><img width="49%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/discord-ghostwas.svg" alt="Discord badges for ghostwas" /></a>
 </p>
 
 ### activity

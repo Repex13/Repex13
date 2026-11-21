@@ -1,8 +1,8 @@
-name: generate snake
+name: profile assets
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,6 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v7
+
+      # Runs before snk so dist/ is owned by the runner, not by snk's container.
+      - name: Discord badge strips
+        run: python3 .github/scripts/discord_badges.py dist
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
