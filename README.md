@@ -19,7 +19,7 @@
 - **gameplay systems** — Roblox parry / posture combat, character morphs and rigs
 - **runtime research** — reverse engineering and Windows internals in C++
 - **desktop tooling** — WebView2 launchers and WPF companion apps in C#
-- **web** — [progenitors.ca](https://progenitors.ca/repex), built on Vinxi + Cloudflare
+- **web** — [progenitors.ca/repex](https://progenitors.ca/repex), built with vinext on Cloudflare
 
 ### projects
 
@@ -52,9 +52,9 @@ CC-compatible character morphs: Blender modeling and rigging, SurfaceAppearance,
 </td>
 <td width="50%" valign="top">
 
-**[Progenitors](https://progenitors.ca/repex)** <sub>in progress</sub>
+**[Progenitors](https://progenitors.ca/repex)**
 
-Community and lore site at progenitors.ca. Vinxi (React Server Components) on Cloudflare.
+Site for Progenitors, a group of friends from school who build projects together, with a page for each member. vinext on Cloudflare.
 
 </td>
 </tr>
@@ -101,6 +101,8 @@ Community and lore site at progenitors.ca. Vinxi (React Server Components) on Cl
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&theme=catppuccin_mocha&hide_border=true&border_radius=10&card_width=495" alt="GitHub stats" />
 <img width="49%" src="https://streak-stats.demolab.com?user=Repex13&theme=catppuccin-mocha&hide_border=true&border_radius=10" alt="GitHub streak" />
+
+<img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/trophy.svg" alt="GitHub trophies" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Repex13&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=cba6f7&point=f5c2e7&area=true&area_color=cba6f7&hide_border=true&radius=10" alt="contribution activity graph" />
 

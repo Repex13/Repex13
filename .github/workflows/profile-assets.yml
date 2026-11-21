@@ -21,6 +21,19 @@ jobs:
       - name: Discord badge strips
         run: python3 .github/scripts/discord_badges.py dist
 
+      - name: Keep the last trophy card if the generator fails
+        run: curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/trophy.svg" -o dist/trophy.svg || true
+
+      # Trophies from the project's own generator; their public server is switched off.
+      - name: Trophies
+        uses: ryo-ma/github-profile-trophy@43736b50a82fca73c8df1c81abb40aa03519975c
+        continue-on-error: true
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: aura
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
