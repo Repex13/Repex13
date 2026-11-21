@@ -2,7 +2,10 @@
 
 <img src="assets/banner.svg" width="100%" alt="REPEX in a white Nen aura beside a Hunter × Hunter Nen chart — roblox · reverse engineering · desktop tooling · web" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=FFFFFF&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · capri — a signal-core desktop companion" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=000000&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=FFFFFF&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · capri — a signal-core desktop companion" />
+</picture>
 
 <p>
 <a href="https://progenitors.ca/repex"><img src="https://img.shields.io/badge/progenitors.ca%2Frepex-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkuNSIvPjxwYXRoIGQ9Ik0yLjUgMTJoMTlNMTIgMi41YzMgMy4yIDMgMTUuOCAwIDE5TTEyIDIuNWMtMyAzLjItMyAxNS44IDAgMTkiLz48L3N2Zz4%3D" alt="progenitors.ca/repex" /></a>
