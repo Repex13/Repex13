@@ -115,12 +115,12 @@ The pipeline behind my Roblox meshes: a Hunyuan3D runner plus Blender scripts th
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&bg_color=000000&title_color=ffffff&text_color=d9d9d9&icon_color=ffffff&ring_color=ffffff&hide_border=true&border_radius=10&card_width=495" alt="GitHub stats" />
+<img width="49%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/stats.svg" alt="GitHub stats" />
 <img width="49%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/streak.svg" alt="GitHub streak" />
 
 <img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/top-languages.svg" alt="Most used languages" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Repex13&bg_color=000000&color=d9d9d9&title_color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&radius=10" alt="contribution activity graph" />
+<img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/activity-graph.svg" alt="contribution activity graph" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Repex13/Repex13/output/github-snake-dark.svg" />

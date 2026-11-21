@@ -31,6 +31,16 @@ jobs:
           GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: python3 .github/scripts/streak.py stats
 
+      - name: Stats card (all contributions, incl. private)
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/stats_card.py stats
+
+      - name: Activity graph (all contributions, incl. private)
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/activity_graph.py stats
+
       - name: Contribution snake (all contributions, incl. private)
         uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
@@ -59,7 +69,7 @@ jobs:
 
       - name: Keep the last cards if the private-stats job failed
         run: |
-          for f in top-languages.svg streak.svg github-snake.svg github-snake-dark.svg; do
+          for f in top-languages.svg streak.svg stats.svg activity-graph.svg github-snake.svg github-snake-dark.svg; do
             curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/$f" -o "dist/$f" || true
           done
 
