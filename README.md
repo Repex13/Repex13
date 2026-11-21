@@ -31,11 +31,11 @@
 <tr>
 <td width="50%" valign="top">
 
-**[Codex-Animated](https://github.com/Repex13/Codex-Animated)** <sub>fork</sub>
+**[Codex-Animated](https://github.com/Synaap/Codex-Animated)** <sub>contributor</sub>
 
 Animated WebView2 launchers for Devin, Antigravity, Codex & Claude, plus a Theme Studio configurator.
 
-<sub>Forked from [Synaap/Codex-Animated](https://github.com/Synaap/Codex-Animated) — the original launcher is Synaap's work, and its startup animation is adapted from [panding999](https://github.com/panding999/codex-startup-animation).</sub>
+<sub>Original launcher by [Synaap](https://github.com/Synaap), startup animation adapted from [panding999](https://github.com/panding999/codex-startup-animation). I added the Devin, Antigravity & Claude launchers, Theme Studio and the theme engine.</sub>
 
 </td>
 <td width="50%" valign="top">
