@@ -11,6 +11,7 @@ from pathlib import Path
 
 USER = "Repex13"
 TOP = 8
+GRAYS = ["#ffffff", "#d4d4d4", "#a9a9a9", "#858585", "#666666", "#4d4d4d", "#3a3a3a", "#2b2b2b"]
 QUERY = """query($login: String!) {
   user(login: $login) {
     repositories(ownerAffiliations: OWNER, first: 100) {
@@ -28,11 +29,12 @@ def languages():
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
             totals[name] = totals.get(name, 0) + edge["size"]
-            colors[name] = readable(edge["node"]["color"] or "#a6adc8")
+            colors[name] = ""
     ranked = sorted(totals.items(), key=lambda kv: -kv[1])
     if len(ranked) > TOP:
         ranked = ranked[:TOP - 1] + [("Other", sum(size for _, size in ranked[TOP - 1:]))]
-        colors["Other"] = "#6c7086"
+    for i, (name, _) in enumerate(ranked):
+        colors[name] = GRAYS[min(i, len(GRAYS) - 1)]
     return ranked, colors
 
 
@@ -60,10 +62,10 @@ def render(ranked, colors):
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" '
              f'role="img" aria-label="Most used languages">',
              "<style>.f{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif}"
-             ".t{font-size:18px;font-weight:600;fill:#94e2d5}.n{font-size:14px;font-weight:600;fill:#cdd6f4}"
-             ".p{font-size:13px;fill:#a6adc8}.i{opacity:0;animation:fade .45s ease-in-out forwards}"
+             ".t{font-size:18px;font-weight:600;fill:#ffffff}.n{font-size:14px;font-weight:600;fill:#e6e6e6}"
+             ".p{font-size:13px;fill:#8a8a8a}.i{opacity:0;animation:fade .45s ease-in-out forwards}"
              "@keyframes fade{to{opacity:1}}@media (prefers-reduced-motion:reduce){.i{opacity:1;animation:none}}</style>",
-             f'<rect width="{width}" height="{height}" rx="10" fill="#1e1e2e"/>',
+             f'<rect width="{width}" height="{height}" rx="10" fill="#000000"/>',
              f'<text class="f t" x="{pad}" y="38">Most Used Languages</text>']
     if not total:
         parts.append(f'<text class="f p" x="{pad}" y="72">No languages data.</text></svg>')
@@ -72,14 +74,14 @@ def render(ranked, colors):
     x = float(pad)
     for name, size in ranked:
         w = bar_w * size / total
-        parts.append(f'<rect x="{x:.2f}" y="54" width="{w + 0.5:.2f}" height="10" fill="{colors[name]}"/>')
+        parts.append(f'<rect x="{x:.2f}" y="54" width="{max(w - 2, 0.5):.2f}" height="10" fill="{colors[name]}"/>')
         x += w
     parts.append("</g>")
     col_w = bar_w / cols
     for i, (name, size) in enumerate(ranked):
         cx, cy = pad + (i % cols) * col_w, 96 + (i // cols) * row_h
         parts.append(f'<g class="i" style="animation-delay:{150 + i * 120}ms">'
-                     f'<circle cx="{cx + 6:.1f}" cy="{cy - 5}" r="6" fill="{colors[name]}"/>'
+                     f'<circle cx="{cx + 6:.1f}" cy="{cy - 5}" r="6" fill="{colors[name]}" stroke="#9a9a9a" stroke-width=".8"/>'
                      f'<text class="f n" x="{cx + 20:.1f}" y="{cy}">{esc(name)} <tspan class="p">{100 * size / total:.1f}%</tspan></text></g>')
     parts.append("</svg>")
     return "".join(parts)

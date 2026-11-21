@@ -61,16 +61,16 @@ def render(badges):
     parts = []
     for description, icon in badges:
         png = base64.b64encode(fetch(CDN.format(icon), binary=True)).decode()
-        parts.append(f'<image x="{x}" y="10" width="{size}" height="{size}" href="data:image/png;base64,{png}">'
+        parts.append(f'<image x="{x}" y="10" width="{size}" height="{size}" href="data:image/png;base64,{png}" filter="url(#g)">'
                      f'<title>{esc(description)}</title></image>')
         x += size + gap
     if not parts:
-        parts.append('<text x="84" y="27" fill="#6c7086" font-size="13">no public badges</text>')
+        parts.append('<text x="84" y="27" fill="#8a8a8a" font-size="13">no public badges</text>')
     return ('<svg xmlns="http://www.w3.org/2000/svg" width="410" height="44" viewBox="0 0 410 44" role="img" '
             f'aria-label="Discord badges: {esc(", ".join(d for d, _ in badges) or "none")}">'
-            '<rect width="410" height="44" rx="10" fill="#1e1e2e"/>'
+            '<defs><filter id="g"><feColorMatrix type="saturate" values="0"/></filter></defs><rect width="410" height="44" rx="10" fill="#000000"/>'
             '<g font-family="\'Segoe UI\',Ubuntu,\'Helvetica Neue\',Arial,sans-serif">'
-            '<text x="16" y="27" fill="#a6adc8" font-size="13" font-weight="600">badges</text>'
+            '<text x="16" y="27" fill="#bdbdbd" font-size="13" font-weight="600">badges</text>'
             + "".join(parts) + "</g></svg>")
 
 

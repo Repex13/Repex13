@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
-<title id="t">Repex</title><desc id="d">Black and white Hunter x Hunter inspired banner: REPEX in a white Nen aura over manga screentone and speed lines, the four Nen principles, and a Nen type chart with Manipulation highlighted</desc>
+<title id="t">Repex</title><desc id="d">Black and white Hunter x Hunter inspired banner: REPEX in a white Nen aura over manga screentone and speed lines, the four Nen principles, and a Nen type chart with Specialization highlighted</desc>
 <style>
 .mote{animation:rise 5s ease-in infinite;opacity:0}
 @keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.9}100%{transform:translateY(-70px);opacity:0}}
@@ -83,26 +83,26 @@
 <line x1="1040" y1="160" x2="1040.0" y2="260.0" stroke="#fff" stroke-opacity=".14"/>
 <line x1="1040" y1="160" x2="953.4" y2="210.0" stroke="#fff" stroke-opacity=".14"/>
 <line x1="1040" y1="160" x2="953.4" y2="110.0" stroke="#fff" stroke-opacity=".14"/>
-<polygon class="pulse" points="1040.0,100.0 1074.6,140.0 1092.0,190.0 1040.0,240.0 953.4,210.0 970.7,120.0" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-width="5" stroke-opacity=".3" filter="url(#soft)"/>
-<polygon points="1040.0,100.0 1074.6,140.0 1092.0,190.0 1040.0,240.0 953.4,210.0 970.7,120.0" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-width="1.6"/>
+<polygon class="pulse" points="1040.0,120.0 1092.0,130.0 1109.3,200.0 1040.0,260.0 970.7,200.0 988.0,130.0" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-width="5" stroke-opacity=".3" filter="url(#soft)"/>
+<polygon points="1040.0,120.0 1092.0,130.0 1109.3,200.0 1040.0,260.0 970.7,200.0 988.0,130.0" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-width="1.6"/>
 <text x="1040" y="171" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="30" font-weight="700" fill="#fff" opacity=".14">念</text>
-<circle cx="1040.0" cy="100.0" r="2.6" fill="#9a9a9a"/>
+<circle cx="1040.0" cy="120.0" r="2.6" fill="#9a9a9a"/>
 <text x="1040.0" y="16.0" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">強化系</text>
 <text x="1040.0" y="30.0" text-anchor="middle" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">ENHANCEMENT</text>
-<circle cx="1074.6" cy="140.0" r="2.6" fill="#9a9a9a"/>
+<circle cx="1092.0" cy="130.0" r="2.6" fill="#9a9a9a"/>
 <text x="1157.8" y="90.0" text-anchor="start" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">変化系</text>
 <text x="1157.8" y="104.0" text-anchor="start" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">TRANSMUTATION</text>
-<circle cx="1092.0" cy="190.0" r="2.6" fill="#9a9a9a"/>
+<circle cx="1109.3" cy="200.0" r="2.6" fill="#9a9a9a"/>
 <text x="1157.8" y="226.0" text-anchor="start" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">具現化系</text>
 <text x="1157.8" y="240.0" text-anchor="start" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">CONJURATION</text>
-<circle cx="1040.0" cy="240.0" r="2.6" fill="#9a9a9a"/>
-<text x="1040.0" y="292.0" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">特質系</text>
-<text x="1040.0" y="306.0" text-anchor="middle" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">SPECIALIZATION</text>
-<circle class="pulse" cx="953.4" cy="210.0" r="9" fill="#fff" opacity=".45" filter="url(#soft)"/>
-<circle cx="953.4" cy="210.0" r="4" fill="#fff"/>
-<text x="922.2" y="226.0" text-anchor="end" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="15" font-weight="700" fill="#fff" opacity="1">操作系</text>
-<text x="922.2" y="240.0" text-anchor="end" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#fff" opacity="0.95">MANIPULATION · 100%</text>
-<circle cx="970.7" cy="120.0" r="2.6" fill="#9a9a9a"/>
+<circle class="pulse" cx="1040.0" cy="260.0" r="9" fill="#fff" opacity=".45" filter="url(#soft)"/>
+<circle cx="1040.0" cy="260.0" r="4" fill="#fff"/>
+<text x="1040.0" y="292.0" text-anchor="middle" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="15" font-weight="700" fill="#fff" opacity="1">特質系</text>
+<text x="1040.0" y="306.0" text-anchor="middle" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#fff" opacity="0.95">SPECIALIZATION · 100%</text>
+<circle cx="970.7" cy="200.0" r="2.6" fill="#9a9a9a"/>
+<text x="922.2" y="226.0" text-anchor="end" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">操作系</text>
+<text x="922.2" y="240.0" text-anchor="end" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">MANIPULATION</text>
+<circle cx="988.0" cy="130.0" r="2.6" fill="#9a9a9a"/>
 <text x="922.2" y="90.0" text-anchor="end" font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif" font-size="13" font-weight="500" fill="#bdbdbd" opacity="0.75">放出系</text>
 <text x="922.2" y="104.0" text-anchor="end" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1" fill="#bdbdbd" opacity="0.5">EMISSION</text>
 <text x="92" y="92" font-family="ui-monospace,'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="15" letter-spacing="1.5" fill="#8a8a8a"><tspan font-family="'Yu Gothic','Hiragino Kaku Gothic ProN','Noto Sans CJK JP','Noto Sans JP',Meiryo,sans-serif">ハンターライセンス</tspan> · HUNTER LICENSE <tspan fill="#fff">No.013</tspan></text>
