@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="REPEX — roblox · reverse engineering · desktop tooling · web" />
+<img src="assets/banner.svg" width="100%" alt="REPEX in a white Nen aura beside a Hunter × Hunter Nen chart — roblox · reverse engineering · desktop tooling · web" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=CBA6F7&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · capri — a signal-core desktop companion" />
 
