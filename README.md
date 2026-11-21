@@ -3,8 +3,8 @@
 <img src="assets/banner.svg" width="100%" alt="REPEX in a white Nen aura beside a Hunter × Hunter Nen chart — roblox · reverse engineering · desktop tooling · web" />
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=000000&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=FFFFFF&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · capri — a signal-core desktop companion" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=000000&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;gaming+edits+%26+montages;capri+%E2%80%94+a+signal-core+desktop+companion" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=FFFFFF&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;gaming+edits+%26+montages;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · gaming edits & montages · capri — a signal-core desktop companion" />
 </picture>
 
 <p>
@@ -22,6 +22,7 @@
 - **gameplay systems** — Roblox parry / posture combat, character morphs and rigs
 - **runtime research** — reverse engineering and Windows internals in C++
 - **desktop tooling** — WebView2 launchers and WPF companion apps in C#
+- **editing** — gaming edits and montages on [YouTube](https://www.youtube.com/@r3pex), cut in Premiere Pro and DaVinci Resolve
 - **web** — [progenitors.ca/repex](https://progenitors.ca/repex), built with vinext on Cloudflare
 
 ### projects
@@ -79,6 +80,9 @@ Site for Progenitors, a group of friends from school who build projects together
 <img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwindcss&logoColor=ffffff" alt="Tailwind" />
 <img src="https://img.shields.io/badge/Cloudflare-000000?style=for-the-badge&logo=cloudflare&logoColor=ffffff" alt="Cloudflare" />
 <img src="https://img.shields.io/badge/Blender-000000?style=for-the-badge&logo=blender&logoColor=ffffff" alt="Blender" />
+<img src="https://img.shields.io/badge/Premiere%20Pro-000000?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAzaDE4djE4SDN6TTUgNWgydjJINXpNMTcgNWgydjJoLTJ6TTUgOWgydjJINXpNMTcgOWgydjJoLTJ6TTUgMTNoMnYySDV6TTE3IDEzaDJ2MmgtMnpNNSAxN2gydjJINXpNMTcgMTdoMnYyaC0yek05IDVoNnYxNEg5eiIvPjwvc3ZnPg%3D%3D" alt="Premiere Pro" />
+<img src="https://img.shields.io/badge/DaVinci%20Resolve-000000?style=for-the-badge&logo=davinciresolve&logoColor=ffffff" alt="DaVinci Resolve" />
+<img src="https://img.shields.io/badge/OBS-000000?style=for-the-badge&logo=obsstudio&logoColor=ffffff" alt="OBS" />
 </p>
 
 ### discord
