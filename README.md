@@ -94,8 +94,8 @@ Community and lore site at progenitors.ca. Vinxi (React Server Components) on Cl
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&theme=catppuccin_mocha&hide_border=true&border_radius=10" alt="GitHub stats" />
-<img height="170" src="https://streak-stats.demolab.com?user=Repex13&theme=catppuccin-mocha&hide_border=true&border_radius=10" alt="GitHub streak" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&theme=catppuccin_mocha&hide_border=true&border_radius=10&card_width=495" alt="GitHub stats" />
+<img width="49%" src="https://streak-stats.demolab.com?user=Repex13&theme=catppuccin-mocha&hide_border=true&border_radius=10" alt="GitHub streak" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Repex13&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=cba6f7&point=f5c2e7&area=true&area_color=cba6f7&hide_border=true&radius=10" alt="contribution activity graph" />
 
