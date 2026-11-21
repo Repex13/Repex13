@@ -1,41 +1,60 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="REPEX — roblox · desktop tooling · web" />
+<img src="assets/banner.svg" width="100%" alt="REPEX — roblox · reverse engineering · desktop tooling · web" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=CBA6F7&center=true&vCenter=true&width=600&lines=desktop+tooling+%26+animated+launchers;roblox+character+morphs+%26+rigs;capri+%E2%80%94+a+signal-core+desktop+companion" alt="desktop tooling & animated launchers · roblox character morphs & rigs · capri — a signal-core desktop companion" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=CBA6F7&center=true&vCenter=true&width=600&lines=parry+/+posture+combat+systems;runtime+research+%26+reverse+engineering;desktop+tooling+%26+animated+launchers;capri+%E2%80%94+a+signal-core+desktop+companion" alt="parry / posture combat systems · runtime research & reverse engineering · desktop tooling & animated launchers · capri — a signal-core desktop companion" />
 
 <p>
 <a href="https://progenitors.ca/repex"><img src="https://img.shields.io/badge/progenitors.ca%2Frepex-1e1e2e?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjY2JhNmY3IiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkuNSIvPjxwYXRoIGQ9Ik0yLjUgMTJoMTlNMTIgMi41YzMgMy4yIDMgMTUuOCAwIDE5TTEyIDIuNWMtMyAzLjItMyAxNS44IDAgMTkiLz48L3N2Zz4%3D" alt="progenitors.ca/repex" /></a>
+<a href="https://www.youtube.com/@r3pex"><img src="https://img.shields.io/badge/YouTube-1e1e2e?style=for-the-badge&logo=youtube&logoColor=cba6f7" alt="YouTube" /></a>
+<a href="https://www.tiktok.com/@reijon09"><img src="https://img.shields.io/badge/TikTok-1e1e2e?style=for-the-badge&logo=tiktok&logoColor=cba6f7" alt="TikTok" /></a>
+<a href="https://www.roblox.com/users/3944711994/profile"><img src="https://img.shields.io/badge/Roblox-1e1e2e?style=for-the-badge&logo=roblox&logoColor=cba6f7" alt="Roblox" /></a>
 <img src="https://komarev.com/ghpvc/?username=Repex13&color=cba6f7&style=for-the-badge&label=profile+views" alt="profile views" />
 </p>
 
 </div>
 
+### what i do
+
+- **gameplay systems** — Roblox parry / posture combat, character morphs and rigs
+- **runtime research** — reverse engineering and Windows internals in C++
+- **desktop tooling** — WebView2 launchers and WPF companion apps in C#
+- **web** — [progenitors.ca](https://progenitors.ca/repex), built on Vinxi + Cloudflare
+
 ### projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**[Codex-Animated](https://github.com/Synaap/Codex-Animated)** <sub>fork</sub>
+**[Codex-Animated](https://github.com/Repex13/Codex-Animated)** <sub>fork</sub>
 
 Animated WebView2 launchers for Devin, Antigravity & Codex, plus a Theme Studio configurator.
 
 <sub>Forked from [Synaap/Codex-Animated](https://github.com/Synaap/Codex-Animated) — the original launcher is Synaap's work, and its startup animation is adapted from [panding999](https://github.com/panding999/codex-startup-animation).</sub>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 **Capri** <sub>private · in progress</sub>
 
 Desktop companion with a signal-core HUD — distinct dormant, listening, thinking and speaking states — and a low-latency neural voice. WPF / C#.
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 **Roblox morphs** <sub>private</sub>
 
 CC-compatible character morphs: Blender modeling and rigging, SurfaceAppearance, RBXM export.
+
+</td>
+<td width="50%" valign="top">
+
+**[Progenitors](https://progenitors.ca/repex)** <sub>in progress</sub>
+
+Community and lore site at progenitors.ca. Vinxi (React Server Components) on Cloudflare.
 
 </td>
 </tr>
@@ -57,6 +76,18 @@ CC-compatible character morphs: Blender modeling and rigging, SurfaceAppearance,
 <img src="https://img.shields.io/badge/Tailwind-1e1e2e?style=for-the-badge&logo=tailwindcss&logoColor=cba6f7" alt="Tailwind" />
 <img src="https://img.shields.io/badge/Cloudflare-1e1e2e?style=for-the-badge&logo=cloudflare&logoColor=cba6f7" alt="Cloudflare" />
 <img src="https://img.shields.io/badge/Blender-1e1e2e?style=for-the-badge&logo=blender&logoColor=cba6f7" alt="Blender" />
+</p>
+
+### discord
+
+<p>
+<a href="https://discord.com/users/861006155719770112"><img src="https://img.shields.io/badge/repexforde-1e1e2e?style=for-the-badge&logo=discord&logoColor=cba6f7" alt="repexforde" /></a>
+<a href="https://discord.com/users/1070456961310662686"><img src="https://img.shields.io/badge/ghostwas-1e1e2e?style=for-the-badge&logo=discord&logoColor=cba6f7" alt="ghostwas" /></a>
+</p>
+
+<p>
+<a href="https://discord.com/users/861006155719770112"><img width="49%" src="https://lanyard.cnrad.dev/api/861006155719770112?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true" alt="Discord presence for repexforde" /></a>
+<a href="https://discord.com/users/1070456961310662686"><img width="49%" src="https://lanyard.cnrad.dev/api/1070456961310662686?theme=dark&bg=1e1e2e&borderRadius=10px&showDisplayName=true" alt="Discord presence for ghostwas" /></a>
 </p>
 
 ### activity
