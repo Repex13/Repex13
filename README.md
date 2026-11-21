@@ -116,7 +116,7 @@ The pipeline behind my Roblox meshes: a Hunyuan3D runner plus Blender scripts th
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&bg_color=000000&title_color=ffffff&text_color=d9d9d9&icon_color=ffffff&ring_color=ffffff&hide_border=true&border_radius=10&card_width=495" alt="GitHub stats" />
-<img width="49%" src="https://streak-stats.demolab.com?user=Repex13&background=000000&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BDBDBD&dates=8A8A8A&stroke=4D4D4D&hide_border=true&border_radius=10" alt="GitHub streak" />
+<img width="49%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/streak.svg" alt="GitHub streak" />
 
 <img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/top-languages.svg" alt="Most used languages" />
 
