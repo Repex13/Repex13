@@ -102,7 +102,7 @@ Site for Progenitors, a group of friends from school who build projects together
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Repex13&show_icons=true&count_private=true&theme=catppuccin_mocha&hide_border=true&border_radius=10&card_width=495" alt="GitHub stats" />
 <img width="49%" src="https://streak-stats.demolab.com?user=Repex13&theme=catppuccin-mocha&hide_border=true&border_radius=10" alt="GitHub streak" />
 
-<img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/trophy.svg" alt="GitHub trophies" />
+<img width="100%" src="https://raw.githubusercontent.com/Repex13/Repex13/output/top-languages.svg" alt="Most used languages" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Repex13&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=cba6f7&point=f5c2e7&area=true&area_color=cba6f7&hide_border=true&radius=10" alt="contribution activity graph" />
 

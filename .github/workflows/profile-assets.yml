@@ -11,7 +11,29 @@ permissions:
   contents: write
 
 jobs:
+  # Kept apart so the token secret is only ever loaded alongside GitHub's own actions.
+  languages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Top languages (all repos, incl. private and forks)
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/top_languages.py langs
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: top-languages
+          path: langs/top-languages.svg
+          retention-days: 1
+
   generate:
+    needs: languages
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -21,18 +43,14 @@ jobs:
       - name: Discord badge strips
         run: python3 .github/scripts/discord_badges.py dist
 
-      - name: Keep the last trophy card if the generator fails
-        run: curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/trophy.svg" -o dist/trophy.svg || true
+      - name: Keep the last languages card if the languages job failed
+        run: curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/top-languages.svg" -o dist/top-languages.svg || true
 
-      # Trophies from the project's own generator; their public server is switched off.
-      - name: Trophies
-        uses: ryo-ma/github-profile-trophy@43736b50a82fca73c8df1c81abb40aa03519975c
+      - uses: actions/download-artifact@v8
         continue-on-error: true
         with:
-          username: ${{ github.repository_owner }}
-          output_path: dist/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          theme: aura
+          name: top-languages
+          path: dist
 
       - uses: Platane/snk@v3
         with:
