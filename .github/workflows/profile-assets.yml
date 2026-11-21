@@ -11,10 +11,11 @@ permissions:
   contents: write
 
 jobs:
-  # Kept apart so the token secret is only ever loaded alongside GitHub's own actions.
-  languages:
+  # Uses the account token so private work counts toward the languages card and the snake.
+  # Kept apart so the secret only loads next to GitHub's own actions and a commit-pinned snk.
+  private-stats:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
@@ -23,41 +24,45 @@ jobs:
       - name: Top languages (all repos, incl. private and forks)
         env:
           GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
-        run: python3 .github/scripts/top_languages.py langs
+        run: python3 .github/scripts/top_languages.py stats
+
+      - name: Contribution snake (all contributions, incl. private)
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          outputs: |
+            stats/github-snake.svg?color_snake=#000000&color_dots=#ebedf0,#c6c6c6,#8f8f8f,#575757,#1f1f1f
+            stats/github-snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#161b22,#3a3a3a,#6b6b6b,#a8a8a8,#e6e6e6
 
       - uses: actions/upload-artifact@v7
         with:
-          name: top-languages
-          path: langs/top-languages.svg
+          name: private-stats
+          path: stats/
           retention-days: 1
 
   generate:
-    needs: languages
+    needs: private-stats
     if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
 
-      # Runs before snk so dist/ is owned by the runner, not by snk's container.
       - name: Discord badge strips
         run: python3 .github/scripts/discord_badges.py dist
 
-      - name: Keep the last languages card if the languages job failed
-        run: curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/top-languages.svg" -o dist/top-languages.svg || true
+      - name: Keep the last cards if the private-stats job failed
+        run: |
+          for f in top-languages.svg github-snake.svg github-snake-dark.svg; do
+            curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/output/$f" -o "dist/$f" || true
+          done
 
       - uses: actions/download-artifact@v8
         continue-on-error: true
         with:
-          name: top-languages
+          name: private-stats
           path: dist
-
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#000000&color_dots=#ebedf0,#c6c6c6,#8f8f8f,#575757,#1f1f1f
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#161b22,#3a3a3a,#6b6b6b,#a8a8a8,#e6e6e6
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
