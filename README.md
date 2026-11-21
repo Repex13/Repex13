@@ -33,7 +33,7 @@
 
 **[Codex-Animated](https://github.com/Repex13/Codex-Animated)** <sub>fork</sub>
 
-Animated WebView2 launchers for Devin, Antigravity & Codex, plus a Theme Studio configurator.
+Animated WebView2 launchers for Devin, Antigravity, Codex & Claude, plus a Theme Studio configurator.
 
 <sub>Forked from [Synaap/Codex-Animated](https://github.com/Synaap/Codex-Animated) — the original launcher is Synaap's work, and its startup animation is adapted from [panding999](https://github.com/panding999/codex-startup-animation).</sub>
 
@@ -59,6 +59,15 @@ Blender scripts that turn rigged characters into Roblox R15 morphs: clean up, sc
 **[Progenitors](https://progenitors.ca/repex)**
 
 Site for Progenitors, a group of friends from school who build projects together, with a page for each member. vinext on Cloudflare.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[Roblox 3D asset pipeline](https://github.com/Repex13/roblox-3d-asset-pipeline)**
+
+The pipeline behind my Roblox meshes: a Hunyuan3D runner plus Blender scripts that weld, decimate, scale, unwrap, bake, export and QA generated sculpts — how it works, no assets.
 
 </td>
 </tr>
